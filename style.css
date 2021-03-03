@@ -262,3 +262,22 @@ input[type="text"] {
 .btn-3:hover {
     background-color: #444;
 }
+
+/* FOOTER */
+footer {
+	height: 260px;
+	background-color: #444;
+}
+
+footer h1 {
+	color: #FFF;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.copyright {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 30px;
+	color: #777;
+}
