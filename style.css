@@ -18,20 +18,25 @@ body {
     padding: 0 10px;
 }
 
-h1 {
-    font-family: 'Crete Round', serif;
-    font-size: 45px;
+h1, h2, h3, h4 {
     color: #444;
 }
 
+h1 {
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+}
+
 h2 {
-    color: #444;
     font-size: 55px;
+}
+
+h3 {
+    font-size: 30px;
 }
 
 h4 {
     font-size: 24px;
-    color: #444;
 }
 
 p {
@@ -209,4 +214,51 @@ article h4 {
 
 .btn-2:hover {
     background: #02B8DD;
+}
+
+/* CONTACT */
+#contact {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h3 {
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #02B8DD;
+}
+
+form {
+    margin: 60px 0 20px 0;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #DDD;
+    border-radius: 3px;
+}
+
+.btn-3 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #02B8DD;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.btn-3:hover {
+    background-color: #444;
 }
